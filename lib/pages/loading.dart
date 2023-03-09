@@ -30,18 +30,18 @@ class _LoadingState extends State<Loading> {
   void initState(){
     super.initState();
     setUpWorldTime();
-
   }
   @override
   Widget build(BuildContext context) {
     return   Scaffold(
       backgroundColor: Colors.grey[900],
       body: const Center(
-        child: SpinKitFadingFour(
-          color: Colors.white,
-          size: 80,
-        ),
-      )
+        child:Text('data'),
+        // child: SpinKitFadingFour(
+        //   color: Colors.white,
+        //   size: 80,
+        // ),
+      ),
       );
   }
 }
